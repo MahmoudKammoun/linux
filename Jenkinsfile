@@ -9,8 +9,7 @@ pipeline {
     stage('Configure') {
       steps {
 
-        sh label: '', script: 'cp -v /boot/config-$(uname -r) .
-config'
+        sh label: '', script: 'cp -v /boot/config-$(uname -r) .config'
       }
     }
 
