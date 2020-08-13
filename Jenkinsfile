@@ -6,5 +6,5 @@ pipeline {
         git 'https://github.com/MahmoudKammoun/linux.git'
       }
     }
-   
+  }
   }
